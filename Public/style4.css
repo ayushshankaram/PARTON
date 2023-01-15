@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-text-color:black;
+    --secondary-text-color:rgb(151, 239, 211);
+    --accent-color:rgb(224, 146, 240);
+    --accent-color-dark:rgb(123, 48, 150);
+    --padding-inline-section:20px;
+}
+
+body{
+    font-family: poppins,sans-serif ;
+    color: var(--padding-text-color);
+}
+
+
+h1{
+    font-size: 3rem;
+}
+
+
+h2{
+    font-size: 2rem;
+}
+
+
+h3{
+    font-size: 1.5rem;
+}
+
+
+p{
+    font-family: roboto, sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height:1.8rem;
+}
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.hover-link{
+    color: var(--primary-text-color);
+
+}
+
+.hover-link:hover{
+    color: var(--accent-color);
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+
+.small-bold-text{
+    font-size: 1rem;
+    font-weight: 700;   
+}
+
+
+.container{
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+    max-width: 1180px;
+}
+
+.top-banner{
+   
+    background-color: rgb(42, 155, 231);
+    border-size: 300px;
+}
+
+.banner-text{
+    color:aliceblue;
+    padding: 15px 30px;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+.company-logo img {
+    width: 160px;
+}
+
+.nav-bar {
+    justify-content: space-between;
+}
+
+
+.nav-links ul{
+    justify-content: end;
+    gap: 40px;
+}
+
+.nav-links{
+    flex-basis: 730px;
+}
+
+.hover-link img{
+    width: 30px;
+}
+
+.cart{
+    box-shadow: 0, 0, 1px, var(--accent-color);
+    padding: 5px;
+}
+
+.cart:hover{
+    background-color: var(--secondary-text-color);
+}
+
+.eve img{
+    width: 1450px;
+    
+}
